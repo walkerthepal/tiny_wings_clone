@@ -1,0 +1,1026 @@
+fileFormatVersion: 2
+guid: ed2bd1b00665545f6b9cfef953092795
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2326231956493351646
+    second: SkulLargel4_0
+  - first:
+      213: -7730652463198140163
+    second: SkulLargel4_1
+  - first:
+      213: -300693980209741817
+    second: SkulLargel4_2
+  - first:
+      213: 2723298359904265762
+    second: SkulLargel4_3
+  - first:
+      213: -1273837586991151134
+    second: SkulLargel4_4
+  - first:
+      213: 2483332119909641737
+    second: SkulLargel4_5
+  - first:
+      213: -8439012235574628147
+    second: SkulLargel4_6
+  - first:
+      213: -4981468137382473794
+    second: SkulLargel4_7
+  - first:
+      213: -3590635854772488605
+    second: SkulLargel4_8
+  - first:
+      213: 1992212305806288261
+    second: SkulLargel4_9
+  - first:
+      213: 9085192406668732817
+    second: SkulLargel4_10
+  - first:
+      213: -455959866601780446
+    second: SkulLargel4_11
+  - first:
+      213: 4584850949229810966
+    second: SkulLargel4_12
+  - first:
+      213: -2797379099710377032
+    second: SkulLargel4_13
+  - first:
+      213: -784663369768971051
+    second: SkulLargel4_14
+  - first:
+      213: 8877798103279425722
+    second: SkulLargel4_15
+  - first:
+      213: 1703141485974491617
+    second: SkulLargel4_16
+  - first:
+      213: 8317079509618630466
+    second: SkulLargel4_17
+  - first:
+      213: -3039021336805065203
+    second: SkulLargel4_18
+  - first:
+      213: -8967086649792185274
+    second: SkulLargel4_19
+  - first:
+      213: -7446427758983998909
+    second: SkulLargel4_20
+  - first:
+      213: -449970536965310398
+    second: SkulLargel4_21
+  - first:
+      213: -7324928230203613154
+    second: SkulLargel4_22
+  - first:
+      213: 1127326372448724273
+    second: SkulLargel4_23
+  - first:
+      213: 6748577212924321205
+    second: SkulLargel4_24
+  - first:
+      213: -1402319007272476006
+    second: SkulLargel4_25
+  - first:
+      213: 1911156368971593982
+    second: SkulLargel4_26
+  - first:
+      213: -1356086606677439351
+    second: SkulLargel4_27
+  - first:
+      213: -5792379830232315978
+    second: SkulLargel4_28
+  - first:
+      213: 2550396308269603145
+    second: SkulLargel4_29
+  - first:
+      213: 1199938814173267538
+    second: SkulLargel4_30
+  - first:
+      213: 205847604223224645
+    second: SkulLargel4_31
+  - first:
+      213: -1225313435477447997
+    second: SkulLargel4_32
+  - first:
+      213: 4336704980227489174
+    second: SkulLargel4_33
+  - first:
+      213: 1269644184807270665
+    second: SkulLargel4_34
+  - first:
+      213: -5755052537165591485
+    second: SkulLargel4_35
+  - first:
+      213: 6668556192641444344
+    second: SkulLargel4_36
+  - first:
+      213: 842771994964458271
+    second: SkulLargel4_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SkulLargel4_0
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 879
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edab2f7b3af684020800000000000000
+      internalID: 2326231956493351646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_1
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 879
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df883112b8437b490800000000000000
+      internalID: -7730652463198140163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 847
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700008b0b68b3dbf0800000000000000
+      internalID: -300693980209741817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_3
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 767
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2266f7ffd691bc520800000000000000
+      internalID: 2723298359904265762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_4
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 799
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e70ad5b67b625ee0800000000000000
+      internalID: -1273837586991151134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_5
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 783
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e2882e761967220800000000000000
+      internalID: 2483332119909641737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_6
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 767
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc03663651b92ea80800000000000000
+      internalID: -8439012235574628147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_7
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 767
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf046b3f154edab0800000000000000
+      internalID: -4981468137382473794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_8
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 767
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366318ec6bf7b2ec0800000000000000
+      internalID: -3590635854772488605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_9
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 719
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585eeb47982c5ab10800000000000000
+      internalID: 1992212305806288261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 239
+        width: 450
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199e093cb56151e70800000000000000
+      internalID: 9085192406668732817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_11
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 735
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bcd57caea1ca9f0800000000000000
+      internalID: -455959866601780446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_12
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 703
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61594f095a9a0af30800000000000000
+      internalID: 4584850949229810966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_13
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 719
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b339aba786bd29d0800000000000000
+      internalID: -2797379099710377032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_14
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 687
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4d8a092d05c15f0800000000000000
+      internalID: -784663369768971051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_15
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 639
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab85b9d9656443b70800000000000000
+      internalID: 8877798103279425722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_16
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 655
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e19db96826c2a710800000000000000
+      internalID: 1703141485974491617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_17
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 655
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f9f7b8fb33c6370800000000000000
+      internalID: 8317079509618630466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_18
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 543
+        width: 98
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0eb6e2123a33d5d0800000000000000
+      internalID: -3039021336805065203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_19
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 591
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c3df0a3328e8380800000000000000
+      internalID: -8967086649792185274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_20
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 559
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3429624f769f8a890800000000000000
+      internalID: -7446427758983998909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_21
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 543
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2487ac04e2261c9f0800000000000000
+      internalID: -449970536965310398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_22
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 527
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10ab717590a85a90800000000000000
+      internalID: -7324928230203613154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_23
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 495
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1356cb7ec5115af00800000000000000
+      internalID: 1127326372448724273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_24
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 511
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd56ab3833c7ad50800000000000000
+      internalID: 6748577212924321205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_25
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 463
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92eebdea46f98ce0800000000000000
+      internalID: -1402319007272476006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_26
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 447
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8f6c2879ac58a10800000000000000
+      internalID: 1911156368971593982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_27
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 447
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c83548a663e2de0800000000000000
+      internalID: -1356086606677439351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_28
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 463
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b78dd6db355d9fa0800000000000000
+      internalID: -5792379830232315978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_29
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 399
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94990e60ee3d46320800000000000000
+      internalID: 2550396308269603145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_30
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 431
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25640037ef907a010800000000000000
+      internalID: 1199938814173267538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_31
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 399
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b279f2e415bd200800000000000000
+      internalID: 205847604223224645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_32
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 351
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca6ad32cefcefee0800000000000000
+      internalID: -1225313435477447997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_33
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 367
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d7022e3321f2c30800000000000000
+      internalID: 4336704980227489174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_34
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 239
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909e392c8aeae9110800000000000000
+      internalID: 1269644184807270665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_35
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 207
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34cc8828532f120b0800000000000000
+      internalID: -5755052537165591485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_36
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 207
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9ef1396887b8c50800000000000000
+      internalID: 6668556192641444344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkulLargel4_37
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 159
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bf08a0aa022bb00800000000000000
+      internalID: 842771994964458271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
