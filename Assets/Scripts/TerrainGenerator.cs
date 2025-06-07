@@ -10,18 +10,34 @@ public class TerrainGenerator : MonoBehaviour
     [SerializeField] private float heightScale = 5f;
     [SerializeField] private float noiseScale = 0.1f;
     [SerializeField] private float smoothness = 0.5f;
+    [SerializeField] private float minHeight = -2f;
+    [SerializeField] private float maxHeight = 8f;
     
     [Header("References")]
     [SerializeField] private TerrainPool terrainPool;
     [SerializeField] private Material terrainMaterial;
+    [SerializeField] private Transform playerTransform;
     
     private float currentX = 0f;
     private float noiseOffset = 0f;
     private List<TerrainSegment> activeSegments = new List<TerrainSegment>();
     private const int MAX_SEGMENTS = 5;
+    private const float GENERATION_DISTANCE = 40f;
 
     private void Start()
     {
+        if (terrainPool == null)
+        {
+            Debug.LogError("TerrainPool reference is missing!");
+            enabled = false;
+            return;
+        }
+
+        if (terrainMaterial == null)
+        {
+            Debug.LogWarning("Terrain material is not assigned!");
+        }
+
         GenerateInitialTerrain();
     }
 
@@ -35,14 +51,18 @@ public class TerrainGenerator : MonoBehaviour
 
     public void GenerateNextSegment()
     {
-        // Get a segment from the pool
         TerrainSegment segment = terrainPool.GetSegment();
+        if (segment == null) return;
+
         segment.transform.position = new Vector3(currentX, 0, 0);
         
-        // Generate points for the segment
         Vector2[] points = GenerateSegmentPoints();
         segment.Initialize(segmentWidth, segmentHeight, points);
-        segment.SetMaterial(terrainMaterial);
+        
+        if (terrainMaterial != null)
+        {
+            segment.SetMaterial(terrainMaterial);
+        }
         
         activeSegments.Add(segment);
         currentX += segmentWidth;
@@ -58,7 +78,7 @@ public class TerrainGenerator : MonoBehaviour
         {
             float x = i * step;
             float noise = Mathf.PerlinNoise(x * noiseScale + noiseOffset, 0);
-            float height = noise * heightScale;
+            float height = Mathf.Lerp(minHeight, maxHeight, noise);
             
             // Apply smoothing
             if (i > 0 && i < pointsPerSegment - 1)
@@ -75,20 +95,28 @@ public class TerrainGenerator : MonoBehaviour
 
     private void Update()
     {
-        // Check if we need to generate more terrain
-        if (activeSegments.Count < MAX_SEGMENTS)
+        if (playerTransform == null) return;
+
+        float playerX = playerTransform.position.x;
+        
+        // Generate new segments ahead of the player
+        while (currentX < playerX + GENERATION_DISTANCE)
         {
             GenerateNextSegment();
         }
 
-        // Check if we need to remove old segments
-        if (activeSegments.Count > 0)
+        // Remove segments that are too far behind
+        while (activeSegments.Count > 0)
         {
             TerrainSegment firstSegment = activeSegments[0];
-            if (firstSegment.transform.position.x < -segmentWidth)
+            if (firstSegment.transform.position.x < playerX - GENERATION_DISTANCE)
             {
                 terrainPool.ReturnSegment(firstSegment);
                 activeSegments.RemoveAt(0);
+            }
+            else
+            {
+                break;
             }
         }
     }

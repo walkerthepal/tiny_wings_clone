@@ -2,18 +2,30 @@ using UnityEngine;
 
 public class TerrainSegment : MonoBehaviour
 {
-    private MeshFilter meshFilter;
-    private MeshRenderer meshRenderer;
-    private EdgeCollider2D edgeCollider;
+    [Header("Components")]
+    [SerializeField] private MeshFilter meshFilter;
+    [SerializeField] private MeshRenderer meshRenderer;
+    [SerializeField] private EdgeCollider2D edgeCollider;
+
+    [Header("Settings")]
+    [SerializeField] private Material defaultMaterial;
+    
     private Vector2[] points;
     private float width;
     private float height;
 
     private void Awake()
     {
-        meshFilter = gameObject.AddComponent<MeshFilter>();
-        meshRenderer = gameObject.AddComponent<MeshRenderer>();
-        edgeCollider = gameObject.AddComponent<EdgeCollider2D>();
+        // Only add components if they don't exist
+        if (meshFilter == null) meshFilter = gameObject.AddComponent<MeshFilter>();
+        if (meshRenderer == null) meshRenderer = gameObject.AddComponent<MeshRenderer>();
+        if (edgeCollider == null) edgeCollider = gameObject.AddComponent<EdgeCollider2D>();
+        
+        // Set default material if none is assigned
+        if (meshRenderer.material == null && defaultMaterial != null)
+        {
+            meshRenderer.material = defaultMaterial;
+        }
     }
 
     public void Initialize(float width, float height, Vector2[] points)
@@ -73,12 +85,20 @@ public class TerrainSegment : MonoBehaviour
 
     public void SetMaterial(Material material)
     {
-        meshRenderer.material = material;
+        if (material != null)
+        {
+            meshRenderer.material = material;
+        }
     }
 
     public void Reset()
     {
         transform.position = Vector3.zero;
         transform.rotation = Quaternion.identity;
+        if (meshFilter.mesh != null)
+        {
+            meshFilter.mesh.Clear();
+        }
+        points = null;
     }
 } 
